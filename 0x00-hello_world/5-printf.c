@@ -2,7 +2,8 @@
 /**
  * main - Entry point
  *
- * prints "with proper grammar, but the outcome is a piece of art,"
+ * prints "with proper grammar, but the outcome is a piece of 
+ * art,"
  *
  * Return: Always 0 (Success)
  */
