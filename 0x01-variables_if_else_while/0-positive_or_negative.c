@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main -print positive, negative or zero, if n is picked randomly
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -12,13 +16,13 @@ int main(void)
 	/* your code goes there */
 
 	if (n > 0) {
-		printf("%d: if the number is greater than 0: %c\n", n, is positive)
+		printf("%d is positive \n", n)
 	}
 	else (n == 0) {
-		printf("%d: if the number is 0: %c\n", n, is zero)
+		printf("%d is zero \n", n);
 	}
 	else (n < 0) {
-		printf("%d: if the number is less than 0: %c\n", n, is negative)
+		printf("%d is negative \n", n)
 	}
 	return (0);
 }
