@@ -18,3 +18,11 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+while (upperc <= 'Z')
+{
+	putchar(upperc);
+	upperc++;
+}
+putchar('\n');
+return (0);
+}
