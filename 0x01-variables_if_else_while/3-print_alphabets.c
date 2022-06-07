@@ -15,9 +15,6 @@ int main(void)
 		putchar(lowerc);
 		lowerc++;
 	}
-	putchar('\n');
-	return (0);
-}
 	while (upperc <= 'Z')
 	{
 		putchar(upperc);
@@ -26,3 +23,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
