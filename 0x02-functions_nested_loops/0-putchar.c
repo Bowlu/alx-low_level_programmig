@@ -1,13 +1,14 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Description: print _putchar
+ * main - main.h
+ * Description: program that prints _putchar
  *
  * Return: 0
  */
 int main(void)
-{
-	int character;
+	{
 
-	printf("_putchar");
+	printf("_putchar\n");
 	return (0);
+	}
