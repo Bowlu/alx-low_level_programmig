@@ -1,21 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - main.h
+ * main - printing _putchar
  * Description: program that prints _putchar
  *
  * Return: 0
  */
-int _putchar(char c) 
-{
-	char c = '_putchar';
-	printf("%c", c);
-}
-int main(void)
-	{
-	int _putchar;
 
-	
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
-	}
+}
