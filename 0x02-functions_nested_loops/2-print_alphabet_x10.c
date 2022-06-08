@@ -3,7 +3,7 @@
  * main - prints alphabets
  * Description: prints 10x the alphabet in lower case
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void) 
 {
 	int a;
 	int b;
