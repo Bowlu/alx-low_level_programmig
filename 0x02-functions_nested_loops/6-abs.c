@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _abs - function name that computes the absolute value of an integer
  * @n: integer parameter
@@ -6,9 +7,8 @@
  */
 int _abs(int n)
 {
-	if (n <= 0 && n >= 0)
-	{
-		_putchar(n);
-	}
+	if (n < 0)
+		n = -n;
+
 	return (n);
 }
