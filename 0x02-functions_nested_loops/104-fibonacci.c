@@ -9,7 +9,7 @@ int main(void)
 
 	b = 1;
 	c = 2;
-	printf("%lu\n", b);
+	printf("%lu", b);
 
 	for (a = 1; a < 91; a++)
 	{
