@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - function name 
+ * jack_bauer - function name
  *
  * Return: 0
  */
@@ -8,6 +8,7 @@ void jack_bauer(void)
 {
 	int a;
 	int h;
+
 	for (h = 0; h < 24; h++)
 	{
 		for (a = 0; a < 60; a++)
