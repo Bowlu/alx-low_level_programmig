@@ -10,7 +10,5 @@ int _strlen(char *s)
 	char len[] = "My first strlen";
 
 	s = len;
-	putchar(*s);
-	putchar('\n');
-	return (0);
+	return (len);
 }
