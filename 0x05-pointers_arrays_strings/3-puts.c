@@ -7,6 +7,10 @@
  */
 void _puts(char *str)
 {
-	str = "C programming is simple";
+	for (str != 0; str++)
+	{
+		puts(*str);
+	}
+	puts('\n');
 	
 }
