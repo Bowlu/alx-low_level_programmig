@@ -7,7 +7,6 @@
  */
 void _puts(char *str)
 {
-	char *str;
 	str = "C programming is simple";
 	
 }
