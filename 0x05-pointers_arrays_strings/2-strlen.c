@@ -12,4 +12,5 @@ int _strlen(char *s)
 	s = len;
 	putchar(*s);
 	putchar('\n');
+	return (0);
 }
