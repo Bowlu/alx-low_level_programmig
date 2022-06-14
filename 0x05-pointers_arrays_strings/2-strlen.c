@@ -7,8 +7,10 @@
  */
 int _strlen(char *s)
 {
-	char len[] = "My first strlen";
-
-	s = len;
+	int len;
+	for (; *s ! = '\0'; s++)
+	{
+		s = len;
+	}
 	return (len);
 }
