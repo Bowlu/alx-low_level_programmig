@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  * puts2 - function name
  * @str: parameter
@@ -9,6 +10,7 @@
 void puts2(char *str)
 {
 	int bet;
+	int i;
 	bet = strlen(str);
 
 	for (i = 0; i < bet; i++)
