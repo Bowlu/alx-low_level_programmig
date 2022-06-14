@@ -7,11 +7,12 @@
 
 void puts2(char *str)
 {
-	int bet = str
+	int bet;
+	bet = strlen(str);
 
 	for (i = 0; i < bet; i++)
 	{
-		putchar(str);
+		putchar(str[i]);
 	}
 	putchar('\n');
 }
