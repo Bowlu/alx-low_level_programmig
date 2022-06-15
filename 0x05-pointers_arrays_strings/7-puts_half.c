@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sting.h>
+#include <string.h>
 /**
  * puts_half - function name
  * @str: parameter
