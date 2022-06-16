@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strncpy - function name
+ * _strncpy - function
  * @dest: first character argument
  * @src: second character argument
  * @n: integer
