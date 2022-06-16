@@ -12,10 +12,7 @@ void print_array(int *a, int n)
 	int numbers = *a;
 	*a = n;
 
-	for (int i = n; i < 5; i++;)
-	{
-		putchar(numbers + i);
+		putchar(numbers + n);
 		putchar(',');
-	}
 	putchar('\n');
 }
