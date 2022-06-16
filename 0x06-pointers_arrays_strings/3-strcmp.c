@@ -6,6 +6,7 @@
  * @s2: second parameter
  * Return: 0
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	strcmp(s1, s2);
