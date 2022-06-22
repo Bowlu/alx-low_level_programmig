@@ -1,29 +1,27 @@
 #include "main.h"
-#include <stdio.h>
+#include <string.h>
 
 /**
- * _strchr - pointer function name
- * @s: pointer
+ * _strchr - function name
+ * @s: pointer to char
  * @c: second parameter
- * Return: a pointer to the first occurence of the character c in the string s
+ * Return: a pointer to the first occurrence of the character c in the string s
  */
 
 char *_strchr(char *s, char c)
 {
-	char a;
-	char p;
+	int b;
 
-	while (s[a])
+	while (1)
 	{
-		a++;
-	}
-	for (p = 0, p < a; p++)
-	{
-		if (c == s[p])
+		b = *s++;
+		if (b == c)
 		{
-			s += p;
+			return (s - 1);
 		}
-		return (s);
+		if (b == 0)
+		{
+			return (NULL);
+		}
 	}
-	return ('\0');
 }
