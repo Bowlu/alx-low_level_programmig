@@ -12,7 +12,12 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 1));
 }
 
-//this function prints the square root of a number
+/**
+ * _sqrt - function name
+ * @num: first parameter
+ * @i: second parameter
+ * Return: square of a number
+ */
 int _sqrt(int num, int i)
 {
 	int sqr = i * i;
