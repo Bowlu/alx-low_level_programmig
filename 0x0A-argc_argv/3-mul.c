@@ -9,18 +9,15 @@
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int mul;
-	int num1;
-	int num2;
+	int mul, num1, num2;
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		printf("%s\n", "Error");
 		return (1);
 	}
 
-	else
-		mul = num1 * num2;
-		printf("%d\n", mul);
+	mul = num1 * num2;
+	printf("%d\n", mul);
 	return (0);
 }
