@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	addNum += num;
 
 	if (argc == 1)
-		printf("%d\n", "0");
+		printf("0\n");
 
 	else 
 	{
