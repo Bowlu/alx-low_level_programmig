@@ -9,15 +9,20 @@
 
 int main(int argc, char *argv[])
 {
-	unsigned int num, addNum;
+	unsigned int num, addNum, i;
 
 	addNum += num;
 
 	if (argc == 1)
 		printf("%d\n", "0");
 
-	else if (argv[num] > '9' || argv[num] < '0')
+	else 
 	{
+		for (i = 1; i < argc; i++)
+		{
+			if (argv[i] > '9' || argv[i] < '0')
 		printf("Error\n");
 		return (1);
+		}
 	}
+}
