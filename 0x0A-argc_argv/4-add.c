@@ -9,19 +9,26 @@
 
 int main(int argc, char *argv[])
 {
-	int num, addNum, a;
-
-	addNum += num;
-
-	if (argc == 1)
-		printf("0\n");
+	int num, addNum, a, b;
 
 	for (a = 1; a < argc; a++)
 	{
-		if (argv[a] > '9' || argv[a] < '0')
+		for (b =1; argv[a][b] != '\0'; b++)
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[a] > '9' || argv[a] < '0')
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 	}
+	for (c = 1; c < argc; c++)
+	{
+		num = atoi(argv[c]);
+		addNum += num;
+	}
+	printf("%d\n", addNum);
+	return (0);
 }
+
+
