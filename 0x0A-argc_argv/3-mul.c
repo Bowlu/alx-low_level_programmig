@@ -10,9 +10,8 @@
 int main(int argc, char *argv[] __attribute__((unused)))
 {
 	int mul;
-	int num1, num2;
-
-	mul = num1 * num2;
+	int num1;
+	int num2;
 
 	if (argc != 3)
 	{
@@ -21,6 +20,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
 	}
 
 	else
+		mul = num1 * num2;
 		printf("%d\n", mul);
 	return (0);
 }
