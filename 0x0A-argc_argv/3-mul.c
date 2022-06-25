@@ -13,11 +13,13 @@ int main(int argc, char *argv[] __attribute__((unused)))
 
 	if (argc != 3)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
-
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
 	mul = num1 * num2;
+
 	printf("%d\n", mul);
 	return (0);
 }
