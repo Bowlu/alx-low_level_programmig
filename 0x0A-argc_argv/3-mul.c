@@ -7,15 +7,18 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	int mul;
 	int num1, num2;
 
 	mul = num1 * num2;
+
 	if (argc != 3)
+	{
 		printf("Error\n");
-	return (1);
+		return (1);
+	}
 
 	else
 		printf("%d\n", mul);
