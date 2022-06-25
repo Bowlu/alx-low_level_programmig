@@ -4,7 +4,6 @@
  * main - the function that prints its name
  * @argc: argument count
  * @argv: array of argument
- * 
  * Return: 0
  */
 
