@@ -11,6 +11,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char s;
+	int n;
 
 	s = malloc(sizeof(char) *4);
 
