@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-/** 
+/**
  * create_array - function name which is a pointer to char
  * @size: first argument
  * @c: second argument
