@@ -17,11 +17,11 @@ char *create_array(unsigned int size, char c)
 
 	while (i < size)
 	{
-		if (i = 0)
+		if (*s = 0)
 		{
 			_putchar('\0');
 		}
-		if (i == NULL)
+		if (*s == NULL)
 		{
 			return (s);
 		}
