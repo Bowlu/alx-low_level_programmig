@@ -3,7 +3,7 @@
 
 /**
  * _strdup - a function that returns a pointer to a new string duplicated
- * @str: string 
+ * @str: string
  * Return: NULL if str is NULL
  */
 
@@ -15,20 +15,19 @@ char *_strdup(char *str)
 
 	while (str[a])
 		a++;
-	n = malloc(sizeof(char));
+	n = malloc(a * sizeof(char) + 1);
 
 	free(n);
 
 	if (str == NULL)
-	       return (NULL);
+		return (NULL);
 	else if (n == NULL)
 		return (NULL);
 	while (b < a)
 	{
 		n[b] = str[b];
-		b++;
-		
+		b++;	
 	}
 	n[b] = '\0';
 	return (n);	
-}	
+}
