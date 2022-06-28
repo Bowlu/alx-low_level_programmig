@@ -13,11 +13,8 @@ char *_strdup(char *str)
 	int a;
 	int b = 0;
 
-	while (a == 1)
-	{
-		str[a] = n[a];
+	while str[a]
 		a++;
-	}
 	n = malloc(sizeof(char));
 
 	free(n);
