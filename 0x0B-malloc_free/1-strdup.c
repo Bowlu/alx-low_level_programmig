@@ -19,9 +19,9 @@ char *_strdup(char *str)
 
 	free(n);
 
-	if (str == NULL)
+	if (n == NULL)
 		return (NULL);
-	else if (n == NULL)
+	else if (str == NULL)
 		return (NULL);
 	while (b < a)
 	{
