@@ -8,7 +8,8 @@
  */
 
 char *_strdup(char *s1, char *s2, unsigned int n)
-{char *n;
+{
+	char *n;
 	unsigned int a;
 	unsigned int result;
 
