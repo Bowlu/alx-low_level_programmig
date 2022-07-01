@@ -7,26 +7,35 @@
  * Return: NULL if str is NULL
  */
 
-char *_strdup(char *str)
+char *_strdup(char *s1, char *s2, unsigned int n)
 {
 	char *n;
-	int a = 1;
-	int b = 0;
+	unsigned int a;
+	unsigned int result;
 
-	while (str[a])
+	while (s1 == NULL)
+		S1 = "";
+	while (S2 == NULL)
+		s2 = "";
+
+	for (result = 0; s1[result]; result++)
+	{
 		a++;
-	n = malloc(a * sizeof(char) + 1);
-	free(n);
+	}
+	n = malloc(sizeof(char) * (a + 1));
 
 	if (n == NULL)
 		return (NULL);
-	else if (str == NULL)
-		return (NULL);
-	while (b < a)
+
+	a = 0;
+	for (result = 0; s1[result]; result++)
 	{
-		n[b] = str[b];
-		b++;
+		n[a++] = s1[result];
 	}
-	n[b] = '\0';
+	for (result = 0; s2[result] && result < n; result++)
+	{
+		n[a++] = s2[result];
+	}
+	n[a] = '\0';
 	return (n);
 }
