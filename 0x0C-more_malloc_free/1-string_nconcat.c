@@ -2,9 +2,11 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - a function that returns a pointer to a new string concatenated
- * @str: string
- * Return: NULL if str is NULL
+ * string_nconcat - a function that returns a pointer to a new string 
+ * @s1: first string parameter
+ * @s2: second string parameter
+ * @n: integer parameter
+ * Return: a pointer
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
