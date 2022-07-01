@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - a function that returns a pointer to a new string 
+ * string_nconcat - a function that returns a pointer to a new string
  * @s1: first string parameter
  * @s2: second string parameter
  * @n: integer parameter
