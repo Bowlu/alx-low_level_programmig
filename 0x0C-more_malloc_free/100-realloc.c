@@ -48,10 +48,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	b = p;
 
 	for (result = 0; result < old_size && result < new_size; result++)
-	{
 		b[result] = *copy++;
-	}
-
 	free(ptr);
 	return (p);
 }
