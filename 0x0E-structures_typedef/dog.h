@@ -1,7 +1,7 @@
 #ifndef STRUCT_DOG
 #define STRUCT_DOG
 
-// structure declaration for the first task
+/* structure declaration for the first task */
 
 /**
  * struct dog - structure with a variable name 'dog'
