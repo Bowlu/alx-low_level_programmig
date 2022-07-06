@@ -1,6 +1,9 @@
 #ifndef STRUCT_DOG
 #define STRUCT_DOG
 
+/* prototype */
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
 /* structure declaration for the first task */
 
 /**
