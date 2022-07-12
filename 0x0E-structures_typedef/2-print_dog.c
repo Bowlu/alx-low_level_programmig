@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * init_dog - function that prints struct dog
+ * print_dog - function that prints struct dog
  * @d: pointer to struct dog
  *
  * Return: 0
  */
 
-void init_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d)
 	{
