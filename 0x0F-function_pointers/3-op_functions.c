@@ -45,11 +45,16 @@ int op_mul(int a, int b)
 
 int op_div(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	return (a / b);
 }
 
 /**
- * op_mod - finds Modules two numbers
+ * op_mod - finds modules of two numbers
  * @a: first integer
  * @b: second integer
  * Return: Result
@@ -57,5 +62,10 @@ int op_div(int a, int b)
 
 int op_mod(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	return (a % b);
 }
