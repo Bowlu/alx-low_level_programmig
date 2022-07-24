@@ -1,64 +1,22 @@
 #include "main.h"
-int _pow(int a, int b);
 
 /**
- * binary_to_uint - converts a binary number to an unsigned int
- * @b: pointer to a string of 0 and 1 chars
+ * print_binary - prints the binary representation
+ * @n: unsigned long int.
  *
- * Return: decimal/int equivalent
+ * Return: 0
  */
 
-unsigned int binary_to_uint(const char *b)
+void print_binary(unsigned long int n)
 {
-	int size = 0;
-	int value;
-	int i = 0;
-	int myInt = 0;
-
-	
-	while (b[i])
+	if (n >> 0)
 	{
-		size++;
-		i++;
+		if (n >> 1)
+			print_binary(n >> 1);
+		_putchar((n & 1) + '0');
 	}
-	value = size - 1;
-
-	if (b == NULL)
-		return (0);
-
-	i = 0;
-	while (b[i])
+	else
 	{
-		if (b[i] == '0' || b[i] == '1')
-		{
-			myInt = myInt + ((b[i] - '0') * _pow(2, value));
-			value--;
-		} else
-		{
-			return (0);
-		}
-		i++;
+		_putchar('0');
 	}
-
-	return (myInt);
-}
-
-/**
- * _pow - calculates a to power b (a^b)
- * @a: base parameter
- * @b: power parameter
- *
- * Return: value
- */
-
-int _pow(int a, int b)
-{
-	int val = 1;
-
-	while (b)
-	{
-		val = val * a;
-		b--;
-	}
-	return (val);
 }
