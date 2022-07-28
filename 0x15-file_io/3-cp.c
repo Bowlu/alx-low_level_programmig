@@ -3,7 +3,7 @@
 /**
 * error_file - checks if files can be opened
 * @file_from: file from
-* @file_to: file to 
+* @file_to: file to
 * @argv: arguments vector
 * Return: 0
 */
